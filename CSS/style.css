@@ -16,8 +16,6 @@
   padding: 30px 0;
 }
 
-html{}
-
 /*DEBUG*/
 .d-flex {
   display: flex;
@@ -35,17 +33,29 @@ main{
 
 .side-column{
   width: 20%;
-  background-color: rgba(71, 69, 69, 0.27);
+  background-color: rgb(24 23 25);
+  z-index: 998;
+}
+
+.side-column .menu{
+  position:fixed;
 }
 
 /*CARDS CONTAINER*/
-.container.cards{
-  overflow: auto;
-}
 .container .upgrade{
   background-color: rgba(59, 53, 53, 0.375);
   height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 997;
 }
+
+.container.cards{
+  margin: 70px 20px;
+}
+
 .box{
   background-color: rgba(41, 37, 37, 0.349);
 }
