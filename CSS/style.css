@@ -30,16 +30,20 @@ main{
 
 .side-column{
   width: 20%;
-  height: 100%;
   background-color: rgba(71, 69, 69, 0.27);
 }
 
 /*CARDS CONTAINER*/
+.container .upgrade{
+  background-color: rgba(59, 53, 53, 0.375);
+  height: 70px;
+}
 .box{
-  background-color: rgba(84, 78, 78, 0.273);
-  width: 80%;
+  background-color: rgba(41, 37, 37, 0.349);
 }
 
 .box .card{
   width: calc(100%/6);
+  height: 150px;
+  border: 1px solid black;
 }
