@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1380px;
+  width: 100%;
+}
+
+.padding{
+  padding: 30px 0;
+}
+
+/*DEBUG*/
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+main{
+  background-color: gray;
+}
+
+/*COLUMN SX*/
+
+.side-column{
+  width: 20%;
+  height: 100%;
+  background-color: rgba(71, 69, 69, 0.27);
+}
+
+/*CARDS CONTAINER*/
+.box{
+  background-color: rgba(84, 78, 78, 0.273);
+  width: 80%;
+}
+
+.box .card{
+  width: calc(100%/6);
+}
