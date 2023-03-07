@@ -32,13 +32,21 @@ main{
 /*COLUMN SX*/
 
 .side-column{
-  width: 20%;
+  min-width: 200px;
+  width: 15%;
   background-color: rgb(24 23 25);
   z-index: 998;
 }
 
 .side-column .menu{
   position:fixed;
+}
+
+.mobile-menu{
+  min-width: 80px;
+  width: 5%;
+  background-color: rgb(24 23 25);
+  z-index: 998;
 }
 
 /*CARDS CONTAINER*/
@@ -64,6 +72,7 @@ main{
   width: calc(100%/6);
   height: 150px;
   border: 1px solid black;
+  min-width: 100px;
 }
 
 /*FOOTER*/
@@ -77,3 +86,28 @@ main{
   height: 70px;
   background-color: rgb(88, 82, 82);
 }
+
+
+/*RESPONSIVE AREA*/
+
+/*DESKTOP*/
+@media screen and (min-width:480px) {
+  .mobile-menu{
+    display: none;
+  }
+}
+
+/*TABLER*/
+@media screen and (max-width:769px) {
+  .box{
+    flex-wrap: wrap;
+  }
+}
+
+/*MOBILE*/
+@media screen and (max-width:479px) {
+  .side-column{
+    display: none;
+  }
+}
+
