@@ -42,6 +42,11 @@ main{
   position:fixed;
 }
 
+.menu img{
+  width: 50%;
+  padding: 10px;
+}
+
 .mobile-menu{
   min-width: 80px;
   width: 5%;
@@ -62,6 +67,7 @@ main{
 
 .container.cards{
   margin: 70px 20px;
+  overflow-y: auto;
 }
 
 .box{
