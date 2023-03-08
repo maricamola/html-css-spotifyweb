@@ -16,6 +16,15 @@
   padding: 30px 0;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 , h2{
+  color: white;
+  font-size: 1.5rem;
+}
+
 /*DEBUG*/
 .d-flex {
   display: flex;
@@ -26,7 +35,7 @@
 }
 
 main{
-  background-color: gray;
+  background-color: #141922;
 }
 
 /*COLUMN SX*/
@@ -44,7 +53,27 @@ main{
 
 .menu img{
   width: 50%;
-  padding: 10px;
+  padding:20px 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #A3A3A3;
+  padding:10px 20px;
+}
+
+ul li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.menu-up .fa-solid{
+  margin-right: 10px;
+}
+
+ul li a:hover{
+  border-left: 3px solid green;
+  color: white;
 }
 
 .mobile-menu{
