@@ -133,7 +133,7 @@ ul li a:hover{
 }
 
 /*CARDS CONTAINER*/
-.container .upgrade{
+.container .upgrade-cta{
   background-color: rgba(0, 0, 0, 0.575);
   height: 70px;
   width: 100%;
@@ -144,7 +144,7 @@ ul li a:hover{
   text-align: right;
 }
 
-.upgrade button{
+.upgrade-cta button{
   padding: 10px 10px;
   border: 1px solid white;
   border-radius: 30px;
@@ -163,15 +163,29 @@ button a{
   overflow-y: auto;
 }
 
+.navigation{
+  text-align: center;
+}
+
+.navigation nav ul li{
+  display: inline;
+  text-transform: uppercase;
+}
+
 .box{
   background-color: rgba(41, 37, 37, 0.349);
 }
 
 .box .card{
   width: calc(100%/6);
-  height: 150px;
+  height: 200px;
   border: 1px solid black;
   min-width: 100px;
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
 }
 
 /*FOOTER*/
