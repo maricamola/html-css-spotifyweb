@@ -12,17 +12,29 @@
   padding: 30px 0;
 }
 
-.content{
-  padding: 30px 0;
-}
-
 body{
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: white;
 }
 
 h1 , h2{
   color: white;
   font-size: 1.5rem;
+}
+
+h4{
+  padding: 10px 0;
+}
+
+.content{
+  padding: 30px 0;
+}
+
+hr{
+  width: 150px;
+  padding: none;
+  margin-top: 10px;
 }
 
 /*DEBUG*/
@@ -43,16 +55,17 @@ main{
 .side-column{
   min-width: 200px;
   width: 15%;
-  background-color: rgb(24 23 25);
+  background-color: black;
   z-index: 998;
 }
 
 .side-column .menu{
   position:fixed;
+  width: 200px;
 }
 
 .menu img{
-  width: 50%;
+  width: 100%;
   padding:20px 20px;
 }
 
@@ -69,12 +82,48 @@ ul li{
 
 .menu-up .fa-solid{
   margin-right: 10px;
+  font-size: 20px;
 }
 
 ul li a:hover{
-  border-left: 3px solid green;
+  border-left: 3px solid #ADFF2F;
   color: white;
 }
+
+.playlist{
+  padding:10px 20px;
+}
+
+.playlist .add{
+  color: #A3A3A3;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.add .fa-solid{
+  font-size: 30px;
+}
+
+.newplaylist{
+  overflow-y:scroll;
+}
+
+.menu-down{
+  position: fixed;
+  bottom: 70px;
+  padding:10px 20px;
+}
+
+.app{
+  font-size: 12px;
+}
+
+.app .fa-solid,
+.user .fa-regular,
+.add .fa-solid{
+  margin-right: 10px;
+}
+
 
 .mobile-menu{
   min-width: 80px;
