@@ -134,13 +134,28 @@ ul li a:hover{
 
 /*CARDS CONTAINER*/
 .container .upgrade{
-  background-color: rgba(59, 53, 53, 0.375);
+  background-color: rgba(0, 0, 0, 0.575);
   height: 70px;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 997;
+  text-align: right;
+}
+
+.upgrade button{
+  padding: 10px 10px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: #14192200;
+  margin: 15px;
+}
+
+button a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
 }
 
 .container.cards{
